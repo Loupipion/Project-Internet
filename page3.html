@@ -1,35 +1,75 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>miHoYo History</title>
-        <link rel="icon" href="image/Logo.webp">
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        </div>
-        <nav class="navbar">
-            <div class="navbar-logo">
-                <img src="image/MiHoYo-logo.png" alt="Logo" />
-                <h1 class="site-name">miHoYo blog</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="page1.html">Présentation</a></li>
-                <li class="dropdown">
-                    <a href="page2.html">Jeux ▼</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="hi3d.html">Honkai Impact 3rd</a></li>
-                        <li><a href="gi.html">Genshin Impact</a></li>
-                        <li><a href="hsr.html">Honkai star rail</a></li>
-                        <li><a href="zzz.html">Zenless zone zero</a></li>
-                    </ul>
-                </li>
-                <li><a href="page3.html">A Propos</a></li>
-            </ul>
-        </nav>
 
-        
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>miHoYo History</title>
+    <link rel="icon" href="image/Logo.webp">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(270deg, #000000, #b974ff, #ff0033, #0080ff);
+            background-size: 800% 800%;
+            animation: backgroundAnimation 20s ease infinite;
+            color: white;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #ff0033, 0 0 20px #340068;
+        }
+    </style>
+    </div>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="image/MiHoYo-logo.png" alt="Logo" />
+            <h1 class="site-name">miHoYo blog</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page1.html">Présentation</a></li>
+            <li class="dropdown">
+                <a href="page2.html">Jeux ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="hi3d.html">Honkai Impact 3rd</a></li>
+                    <li><a href="gi.html">Genshin Impact</a></li>
+                    <li><a href="hsr.html">Honkai star rail</a></li>
+                    <li><a href="zzz.html">Zenless zone zero</a></li>
+                </ul>
+            </li>
+            <li><a href="page3.html">A Propos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="blog-container-3">
+            <div class="credit">
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
 </html>
