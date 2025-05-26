@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    padding-top: 70px;
+}
+
+main.guide {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.background-game {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.blog-container-2 {
+    margin-right: 10px;
+    padding-bottom: 18px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 10px black solid;
+    border-width: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    backdrop-filter: blur(5px);
+    align-self: flex-start;
+    height: 300px;
+    width: 400px;
+}
+
+.post-2 h1 {
+    color: #000000;
+    margin: 10px;
+}
+
+.post-2 p {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider {
+    width: 600px;
+    overflow: hidden;
+    margin: 5px 0 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.slides {
+    display: flex;
+    width: calc(600px * 5);
+    animation: slide 15s infinite;
+}
+
+.slides img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-600px);
+    }
+
+    45% {
+        transform: translateX(-600px);
+    }
+
+    50% {
+        transform: translateX(-1200px);
+    }
+
+    70% {
+        transform: translateX(-1200px);
+    }
+
+    75% {
+        transform: translateX(-1800px);
+    }
+
+    95% {
+        transform: translateX(-1800px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.content-row {
+    display: flex;
+    gap: 50px;
+    align-items: stretch;
+}
+
+.image-presentation {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
