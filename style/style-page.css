@@ -42,16 +42,16 @@ main.guide {
 
 .blog-container-2 {
     margin-right: 10px;
-    padding-bottom: 18px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.3);
-    border: 10px black solid;
-    border-width: 2px;
+    border: 2px solid black;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     backdrop-filter: blur(5px);
-    align-self: flex-start;
-    height: 300px;
-    width: 400px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
 }
 
 .post-2 h1 {
@@ -91,38 +91,47 @@ main.guide {
         transform: translateX(0);
     }
 
-    20% {
+    16% {
         transform: translateX(0);
     }
 
-    25% {
+    20% {
         transform: translateX(-600px);
     }
 
-    45% {
+    36% {
         transform: translateX(-600px);
     }
 
-    50% {
+    40% {
         transform: translateX(-1200px);
     }
 
-    70% {
+    56% {
         transform: translateX(-1200px);
     }
 
-    75% {
+    60% {
         transform: translateX(-1800px);
     }
 
-    95% {
+    76% {
         transform: translateX(-1800px);
+    }
+
+    80% {
+        transform: translateX(-2400px);
+    }
+
+    96% {
+        transform: translateX(-2400px);
     }
 
     100% {
         transform: translateX(0);
     }
 }
+
 
 .content-row {
     display: flex;
